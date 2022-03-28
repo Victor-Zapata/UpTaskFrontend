@@ -31,7 +31,7 @@ const NuevoColaborador = () => {
         ? <p className='text-center'> cargando...</p>
         : colaborador?._id && (
             <div className="flex justify-center mt-10">
-              <div className="bg-white py-10 px-5 sm:w-1/2 rounded-lg shadow">
+              <div className="bg-white py-10 px-5 sm:w-2/2 xl:w-1/2 rounded-lg shadow w-full">
                 <h2 className="text-center mb-10 text-2xl font-bold">
                   Resultado:
                 </h2>

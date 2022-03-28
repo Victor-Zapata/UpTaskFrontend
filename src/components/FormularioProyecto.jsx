@@ -52,7 +52,7 @@ const FormularioProyecto = () => {
 
   return (
     <form
-      className="bg-white py-10 px-5 md:w-1/2 rounded shadow"
+      className="bg-white py-10 px-5 md:w-1/1 xl:w-1/2 rounded shadow"
       onSubmit={handleSubmit}
     >
         { msg && <Alerta alerta={alerta}/>}
